@@ -1,5 +1,5 @@
 {
-    "title": "Stylish Portfolio",
+    "title": "Chaitanya Kumar",
     "name": "startbootstrap-stylish-portfolio",
     "version": "6.0.6",
     "scripts": {
@@ -21,7 +21,7 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/theme/stylish-portfolio",
+    "homepage": "https://ch4174nya.github.io/",
     "bugs": {
         "url": "https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/issues",
         "email": "feedback@startbootstrap.com"
@@ -43,6 +43,7 @@
         "browser-sync": "2.29.1",
         "chokidar": "3.5.3",
         "concurrently": "6.3.0",
+        "gh-pages": "^6.3.0",
         "postcss": "8.4.21",
         "prettier": "2.8.6",
         "pug": "3.0.2",
