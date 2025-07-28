@@ -10980,6 +10980,7 @@ footer.footer {
 footer.footer .social-link {
   display: block;
   text-decoration: none;
+  color: black;
   height: 4rem;
   width: 4rem;
   line-height: 4.3rem;
@@ -11109,4 +11110,15 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Social Media Colors */
+
+.social-icon {
+  color: #6c757d;
+}
+
+/* Ensure links maintain their color on hover */
+.social-icon:hover {
+  color: inherit;
 }
