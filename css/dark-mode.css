@@ -1,0 +1,142 @@
+/* Dark Mode Styles */
+:root {
+  --dark-bg: #121212;
+  --dark-text: #e0e0e0;
+  --dark-secondary: #bb86fc;
+  --dark-primary: #3498db;
+  --dark-card-bg: #1e1e1e;
+  --dark-border: #333;
+}
+
+body.dark-mode {
+  background-color: var(--dark-bg);
+  color: var(--dark-text);
+}
+
+/* Header and sections */
+body.dark-mode .masthead {
+  background-color: #0a0a0a;
+}
+
+/* Keep masthead header text white in dark mode for readability */
+body.dark-mode .masthead * {
+  color: #111 !important;
+}
+
+
+
+body.dark-mode .content-section.bg-light {
+  background-color: var(--dark-bg) !important;
+  color: var(--dark-text);
+}
+
+/* Text colors */
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3, 
+body.dark-mode h4, 
+body.dark-mode h5, 
+body.dark-mode h6 {
+  color: var(--dark-text);
+}
+
+body.dark-mode .text-secondary {
+  color: var(--dark-secondary) !important;
+}
+
+/* Links */
+body.dark-mode a:not(.btn):not(.social-icon):not(.badge) {
+  color: var(--dark-primary);
+}
+
+/* Cards and containers */
+body.dark-mode .card {
+  background-color: var(--dark-card-bg);
+  border-color: var(--dark-border);
+}
+
+body.dark-mode .card-body {
+  background-color: var(--dark-card-bg);
+}
+
+/* Progress bars */
+body.dark-mode .progress {
+  background-color: #333;
+}
+
+/* Buttons */
+body.dark-mode .btn-primary {
+  background-color: var(--dark-primary);
+  border-color: var(--dark-primary);
+}
+
+body.dark-mode .btn-info {
+  background-color: #0dcaf0;
+  border-color: #0dcaf0;
+}
+
+/* Form controls */
+body.dark-mode .form-control {
+  background-color: #333;
+  border-color: #444;
+  color: var(--dark-text);
+}
+
+body.dark-mode .form-control:focus {
+  background-color: #444;
+  color: var(--dark-text);
+}
+
+/* Navigation */
+body.dark-mode #sidebar-wrapper {
+  background-color: #0a0a0a;
+}
+
+body.dark-mode .sidebar-nav li a {
+  color: var(--dark-text);
+}
+
+body.dark-mode .sidebar-nav li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Footer */
+body.dark-mode .footer {
+  background-color: #0a0a0a;
+}
+
+body.dark-mode .text-muted {
+  color: #aaa !important;
+}
+
+/* Portfolio items */
+body.dark-mode .portfolio-item .caption {
+  background-color: rgba(10, 10, 10, 0.9);
+}
+
+/* Badges */
+body.dark-mode .badge.bg-secondary {
+  background-color: #444 !important;
+}
+
+body.dark-mode .badge.bg-primary {
+  background-color: var(--dark-primary) !important;
+}
+
+/* Scroll to top button */
+body.dark-mode .scroll-to-top {
+  background-color: rgba(52, 58, 64, 0.5);
+}
+
+/* Theme toggle icon */
+body.dark-mode #theme-toggle .fa-moon {
+  display: none;
+}
+
+body.dark-mode #theme-toggle .fa-sun {
+  display: inline;
+}
+
+#theme-toggle .fa-sun {
+  display: none;
+}
